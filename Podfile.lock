@@ -16,7 +16,7 @@ PODS:
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
-  - ZKCarousel (1.1.1)
+  - ZKCarousel (1.1.0)
 
 DEPENDENCIES:
   - Moya (~> 14.0)
@@ -24,7 +24,7 @@ DEPENDENCIES:
   - RxCocoa
   - RxSwift
   - SDWebImage (~> 5.0)
-  - ZKCarousel
+  - ZKCarousel (from `https://github.com/Mohamed-AbdulRaouf/ZKCarousel.git`, branch `master`)
 
 SPEC REPOS:
   trunk:
@@ -34,17 +34,22 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SDWebImage
-    - ZKCarousel
 
 EXTERNAL SOURCES:
   NVActivityIndicatorView:
     :git: https://github.com/ninjaprox/NVActivityIndicatorView.git
     :tag: 4.8.0
+  ZKCarousel:
+    :branch: master
+    :git: https://github.com/Mohamed-AbdulRaouf/ZKCarousel.git
 
 CHECKOUT OPTIONS:
   NVActivityIndicatorView:
     :git: https://github.com/ninjaprox/NVActivityIndicatorView.git
     :tag: 4.8.0
+  ZKCarousel:
+    :commit: 59a65bcc30ea8127df1c0f764e4bf19784d25d91
+    :git: https://github.com/Mohamed-AbdulRaouf/ZKCarousel.git
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
@@ -54,8 +59,8 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  ZKCarousel: e54940a77f4b635e650ea0361608db836a776feb
+  ZKCarousel: 935e0aa9beed83824588d9a82d8bafa5b6fc19db
 
-PODFILE CHECKSUM: 567fbb458c75c7d23f6d364abb5674726551daa2
+PODFILE CHECKSUM: d05a1a88c038820b058698748bd5b8ba4f108c98
 
 COCOAPODS: 1.11.2

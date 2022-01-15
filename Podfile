@@ -10,7 +10,7 @@ target 'NYTimes' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'SDWebImage', '~> 5.0'
-  pod 'ZKCarousel'
+  pod 'ZKCarousel', :git => 'https://github.com/Mohamed-AbdulRaouf/ZKCarousel.git', :branch => 'master'
   pod 'NVActivityIndicatorView', :git => 'https://github.com/ninjaprox/NVActivityIndicatorView.git', :tag => '4.8.0'
   
   target 'NYTimesTests' do
